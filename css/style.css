@@ -1,0 +1,52 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.gradient-color {
+    color: orange;
+}
+
+.flex-container {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.half-width {
+    width: 50%;
+    color: #575757;
+}
+
+.diet {
+    padding-top: 110px;
+    padding-left: 200px;
+}
+
+.image {
+    width: 100%;
+}
+
+#female-image {
+    width: 46%;
+    padding-top: 78px;
+    padding-left: 220px;
+}
+
+.link-button {
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 20px 40px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.about-me {
+    background-image: url("/images/shapes/7.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
