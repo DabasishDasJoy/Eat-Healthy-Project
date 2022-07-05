@@ -4,7 +4,15 @@ body {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 65px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1,h2 {
+    color: #575757;
 }
 
 .gradient-color {
@@ -18,12 +26,11 @@ h1 {
 
 .half-width {
     width: 50%;
-    color: #575757;
 }
 
 .diet {
     padding-top: 110px;
-    padding-left: 200px;
+    padding-left: 150px;
 }
 
 .image {
@@ -32,7 +39,7 @@ h1 {
 
 #female-image {
     width: 46%;
-    padding-top: 78px;
+    padding-top: 95px;
     padding-left: 220px;
 }
 
@@ -49,4 +56,46 @@ h1 {
     background-image: url("/images/shapes/7.png");
     background-repeat: no-repeat;
     background-size: 100%;
+}
+#about-me-text{
+    padding-top: 200px;
+    padding-right: 50px;
+    text-align: justify;
+}
+.recipies-title {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.recipe-item img {
+    width: 100%;
+}
+
+.recipe-item {
+    box-shadow: 0px 20px 10px gray;
+    border-radius: 10px;
+    width: 30%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.flex-recipe {
+    justify-content:center;
+}
+
+.statistics-items{
+    width: 64%;
+    margin: auto;
+    justify-content:space-evenly;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 10px;
+    padding: 30px;
+}
+footer{
+    margin-top: 80px;
+    background-color: black;
+    padding: 10px 40px 100px;
+    color: gray;
+    text-align: center;
 }
